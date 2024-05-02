@@ -2,9 +2,9 @@ import sys
 import os
 import matplotlib.pyplot as plt
 import numpy as np
-sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../')
-from ParaAnalyzerLib.DataBase import CreateDataBase
-from ParaAnalyzerLib import Model
+#sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../')
+from DataBase import CreateDataBase
+import Model
 
 class QUPC (object):
     def __init__(self, analysis, savePath:str, figName:str, cvTrue:float, cvFalse:float, cvInconsistence:float ,cvParacompletness:float):

@@ -2,8 +2,8 @@ import sys
 import os
 import csv
 import numpy as np
-sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../')
-from ParaAnalyzerLib import Model
+#sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../')
+import Model
 
 class CreateDataBase (object):
     def __init__(self, name:str):
